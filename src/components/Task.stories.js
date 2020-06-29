@@ -8,13 +8,7 @@ export default {
   component: Task,
   title: "Task",
   decorators: [withKnobs],
-  parameters: {
-    assets: [
-      "path/to/your/asset.png",
-      "path/to/another/asset.png",
-      "path/to/yet/another/asset.png",
-    ],
-  },
+  parameters: { assets: ["designs/items.png"] },
   // Our exports that end in "Data" are not stories.
   excludeStories: /.*Data$/,
 };
@@ -23,7 +17,7 @@ export const taskData = {
   id: "1",
   title: "Test Task",
   state: "TASK_INBOX",
-  updatedAt: new Date(2018, 0, 1, 9, 0),
+  updatedAt: new Date(2020, 0, 6, 2, 9),
 };
 
 export const actionsData = {
