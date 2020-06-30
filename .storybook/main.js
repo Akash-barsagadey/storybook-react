@@ -6,6 +6,7 @@ module.exports = {
     "@storybook/addon-knobs",
     "@storybook/addon-links",
     "@storybook/addon-notes/register",
+    "@storybook/addon-backgrounds/register",
     "./.storybook/design-addon/register.js",
   ],
 };
