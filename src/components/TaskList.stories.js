@@ -6,6 +6,9 @@ import { taskData, actionsData } from "./Task.stories";
 export default {
   component: TaskList,
   title: "TaskList",
+  parameters: {
+    notes: "some documentation here ",
+  },
   decorators: [(story) => <div style={{ padding: "3rem" }}>{story()}</div>],
   excludeStories: /.*Data$/,
 };
